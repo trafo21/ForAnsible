@@ -1,0 +1,5 @@
+---
+  - hosts: slave1
+    roles:
+      - role2
+    become: true
